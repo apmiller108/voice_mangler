@@ -43,6 +43,9 @@
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="169" y="475" width="64" height="64"/>
                                 </variation>
+                                <connections>
+                                    <action selector="stopRecordingAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ba4-a9-2AK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

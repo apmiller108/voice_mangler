@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         recordingLabel.hidden = false
     }
 
+    @IBAction func stopRecordingAudio(sender: UIButton) {
+        recordingLabel.hidden = true
+    }
 
 
 }

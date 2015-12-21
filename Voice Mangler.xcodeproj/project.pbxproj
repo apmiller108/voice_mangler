@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D098FEF1C2856CF006A316D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D098FEE1C2856CF006A316D /* AppDelegate.swift */; };
+		8D098FF11C2856CF006A316D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D098FF01C2856CF006A316D /* ViewController.swift */; };
+		8D098FF41C2856CF006A316D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D098FF21C2856CF006A316D /* Main.storyboard */; };
+		8D098FF61C2856CF006A316D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D098FF51C2856CF006A316D /* Assets.xcassets */; };
+		8D098FF91C2856CF006A316D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D098FF71C2856CF006A316D /* LaunchScreen.storyboard */; };
+		8D0990041C2856CF006A316D /* Voice_ManglerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0990031C2856CF006A316D /* Voice_ManglerTests.swift */; };
+		8D09900F1C2856CF006A316D /* Voice_ManglerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D09900E1C2856CF006A316D /* Voice_ManglerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D0990001C2856CF006A316D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D098FE31C2856CE006A316D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D098FEA1C2856CF006A316D;
+			remoteInfo = "Voice Mangler";
+		};
+		8D09900B1C2856CF006A316D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D098FE31C2856CE006A316D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D098FEA1C2856CF006A316D;
+			remoteInfo = "Voice Mangler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D098FEB1C2856CF006A316D /* Voice Mangler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Mangler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D098FEE1C2856CF006A316D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D098FF01C2856CF006A316D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D098FF31C2856CF006A316D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D098FF51C2856CF006A316D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D098FF81C2856CF006A316D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D098FFA1C2856CF006A316D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D098FFF1C2856CF006A316D /* Voice ManglerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice ManglerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0990031C2856CF006A316D /* Voice_ManglerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_ManglerTests.swift; sourceTree = "<group>"; };
+		8D0990051C2856CF006A316D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D09900A1C2856CF006A316D /* Voice ManglerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice ManglerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D09900E1C2856CF006A316D /* Voice_ManglerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_ManglerUITests.swift; sourceTree = "<group>"; };
+		8D0990101C2856CF006A316D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D098FE81C2856CF006A316D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D098FFC1C2856CF006A316D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0990071C2856CF006A316D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D098FE21C2856CE006A316D = {
+			isa = PBXGroup;
+			children = (
+				8D098FED1C2856CF006A316D /* Voice Mangler */,
+				8D0990021C2856CF006A316D /* Voice ManglerTests */,
+				8D09900D1C2856CF006A316D /* Voice ManglerUITests */,
+				8D098FEC1C2856CF006A316D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D098FEC1C2856CF006A316D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D098FEB1C2856CF006A316D /* Voice Mangler.app */,
+				8D098FFF1C2856CF006A316D /* Voice ManglerTests.xctest */,
+				8D09900A1C2856CF006A316D /* Voice ManglerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D098FED1C2856CF006A316D /* Voice Mangler */ = {
+			isa = PBXGroup;
+			children = (
+				8D098FEE1C2856CF006A316D /* AppDelegate.swift */,
+				8D098FF01C2856CF006A316D /* ViewController.swift */,
+				8D098FF21C2856CF006A316D /* Main.storyboard */,
+				8D098FF51C2856CF006A316D /* Assets.xcassets */,
+				8D098FF71C2856CF006A316D /* LaunchScreen.storyboard */,
+				8D098FFA1C2856CF006A316D /* Info.plist */,
+			);
+			path = "Voice Mangler";
+			sourceTree = "<group>";
+		};
+		8D0990021C2856CF006A316D /* Voice ManglerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D0990031C2856CF006A316D /* Voice_ManglerTests.swift */,
+				8D0990051C2856CF006A316D /* Info.plist */,
+			);
+			path = "Voice ManglerTests";
+			sourceTree = "<group>";
+		};
+		8D09900D1C2856CF006A316D /* Voice ManglerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D09900E1C2856CF006A316D /* Voice_ManglerUITests.swift */,
+				8D0990101C2856CF006A316D /* Info.plist */,
+			);
+			path = "Voice ManglerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D098FEA1C2856CF006A316D /* Voice Mangler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0990131C2856CF006A316D /* Build configuration list for PBXNativeTarget "Voice Mangler" */;
+			buildPhases = (
+				8D098FE71C2856CF006A316D /* Sources */,
+				8D098FE81C2856CF006A316D /* Frameworks */,
+				8D098FE91C2856CF006A316D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voice Mangler";
+			productName = "Voice Mangler";
+			productReference = 8D098FEB1C2856CF006A316D /* Voice Mangler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D098FFE1C2856CF006A316D /* Voice ManglerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0990161C2856CF006A316D /* Build configuration list for PBXNativeTarget "Voice ManglerTests" */;
+			buildPhases = (
+				8D098FFB1C2856CF006A316D /* Sources */,
+				8D098FFC1C2856CF006A316D /* Frameworks */,
+				8D098FFD1C2856CF006A316D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D0990011C2856CF006A316D /* PBXTargetDependency */,
+			);
+			name = "Voice ManglerTests";
+			productName = "Voice ManglerTests";
+			productReference = 8D098FFF1C2856CF006A316D /* Voice ManglerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D0990091C2856CF006A316D /* Voice ManglerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0990191C2856CF006A316D /* Build configuration list for PBXNativeTarget "Voice ManglerUITests" */;
+			buildPhases = (
+				8D0990061C2856CF006A316D /* Sources */,
+				8D0990071C2856CF006A316D /* Frameworks */,
+				8D0990081C2856CF006A316D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D09900C1C2856CF006A316D /* PBXTargetDependency */,
+			);
+			name = "Voice ManglerUITests";
+			productName = "Voice ManglerUITests";
+			productReference = 8D09900A1C2856CF006A316D /* Voice ManglerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D098FE31C2856CE006A316D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alex Miller";
+				TargetAttributes = {
+					8D098FEA1C2856CF006A316D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8D098FFE1C2856CF006A316D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8D098FEA1C2856CF006A316D;
+					};
+					8D0990091C2856CF006A316D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8D098FEA1C2856CF006A316D;
+					};
+				};
+			};
+			buildConfigurationList = 8D098FE61C2856CE006A316D /* Build configuration list for PBXProject "Voice Mangler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D098FE21C2856CE006A316D;
+			productRefGroup = 8D098FEC1C2856CF006A316D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D098FEA1C2856CF006A316D /* Voice Mangler */,
+				8D098FFE1C2856CF006A316D /* Voice ManglerTests */,
+				8D0990091C2856CF006A316D /* Voice ManglerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D098FE91C2856CF006A316D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D098FF91C2856CF006A316D /* LaunchScreen.storyboard in Resources */,
+				8D098FF61C2856CF006A316D /* Assets.xcassets in Resources */,
+				8D098FF41C2856CF006A316D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D098FFD1C2856CF006A316D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0990081C2856CF006A316D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D098FE71C2856CF006A316D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D098FF11C2856CF006A316D /* ViewController.swift in Sources */,
+				8D098FEF1C2856CF006A316D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D098FFB1C2856CF006A316D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0990041C2856CF006A316D /* Voice_ManglerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0990061C2856CF006A316D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D09900F1C2856CF006A316D /* Voice_ManglerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D0990011C2856CF006A316D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D098FEA1C2856CF006A316D /* Voice Mangler */;
+			targetProxy = 8D0990001C2856CF006A316D /* PBXContainerItemProxy */;
+		};
+		8D09900C1C2856CF006A316D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D098FEA1C2856CF006A316D /* Voice Mangler */;
+			targetProxy = 8D09900B1C2856CF006A316D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D098FF21C2856CF006A316D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D098FF31C2856CF006A316D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D098FF71C2856CF006A316D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D098FF81C2856CF006A316D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D0990111C2856CF006A316D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D0990121C2856CF006A316D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0990141C2856CF006A316D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Voice Mangler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.alex-miller.Voice-Mangler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D0990151C2856CF006A316D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Voice Mangler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.alex-miller.Voice-Mangler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D0990171C2856CF006A316D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Voice ManglerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.alex-miller.Voice-ManglerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Mangler.app/Voice Mangler";
+			};
+			name = Debug;
+		};
+		8D0990181C2856CF006A316D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Voice ManglerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.alex-miller.Voice-ManglerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Mangler.app/Voice Mangler";
+			};
+			name = Release;
+		};
+		8D09901A1C2856CF006A316D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Voice ManglerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.alex-miller.Voice-ManglerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Voice Mangler";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8D09901B1C2856CF006A316D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Voice ManglerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.alex-miller.Voice-ManglerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Voice Mangler";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D098FE61C2856CE006A316D /* Build configuration list for PBXProject "Voice Mangler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0990111C2856CF006A316D /* Debug */,
+				8D0990121C2856CF006A316D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0990131C2856CF006A316D /* Build configuration list for PBXNativeTarget "Voice Mangler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0990141C2856CF006A316D /* Debug */,
+				8D0990151C2856CF006A316D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D0990161C2856CF006A316D /* Build configuration list for PBXNativeTarget "Voice ManglerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0990171C2856CF006A316D /* Debug */,
+				8D0990181C2856CF006A316D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D0990191C2856CF006A316D /* Build configuration list for PBXNativeTarget "Voice ManglerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D09901A1C2856CF006A316D /* Debug */,
+				8D09901B1C2856CF006A316D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D098FE31C2856CE006A316D /* Project object */;
+}

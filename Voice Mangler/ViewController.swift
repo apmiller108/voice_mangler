@@ -19,6 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func recordAudio(sender: UIButton) {
+        // TODO: Show some text recording in progress
+        // TODO: Record audio
+        print("The button was pushed");
+    }
 
 
 }

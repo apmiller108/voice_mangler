@@ -27,31 +27,52 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rvc-KN-XCo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recording" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diJ-e3-CCx">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.60392159223556519" blue="0.9803922176361084" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                    <rect key="frame" x="155" y="380" width="93" height="20"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3ec-rM-ma3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8Ic-eG-ujN"/>
+                            <constraint firstItem="diJ-e3-CCx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XX6-bd-uoE"/>
+                            <constraint firstItem="diJ-e3-CCx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="90" id="axL-jB-u3G"/>
                             <constraint firstItem="3ec-rM-ma3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ufo-IM-5NT"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="3ec-rM-ma3"/>
+                                <exclude reference="diJ-e3-CCx"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="8Ic-eG-ujN"/>
                                 <exclude reference="ufo-IM-5NT"/>
+                                <exclude reference="XX6-bd-uoE"/>
+                                <exclude reference="axL-jB-u3G"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="3ec-rM-ma3"/>
+                                <include reference="diJ-e3-CCx"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="8Ic-eG-ujN"/>
                                 <include reference="ufo-IM-5NT"/>
+                                <include reference="XX6-bd-uoE"/>
+                                <include reference="axL-jB-u3G"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="recordingLabel" destination="diJ-e3-CCx" id="naz-wj-q7i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

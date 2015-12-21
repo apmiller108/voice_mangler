@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        recordingLabel.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,9 +24,11 @@ class ViewController: UIViewController {
     @IBAction func recordAudio(sender: UIButton) {
         // TODO: Show some text recording in progress
         // TODO: Record audio
-        print("The button was pushed");
+        print("The button was pushed")
+        recordingLabel.hidden = false
     }
 
+    @IBOutlet weak var recordingLabel: UILabel!
 
 }
 

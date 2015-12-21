@@ -17,23 +17,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ec-rM-ma3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ec-rM-ma3">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Record"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="176" y="282" width="49" height="30"/>
+                                <state key="normal" image="Microphone"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="137" y="233" width="128" height="128"/>
                                 </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3ec-rM-ma3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8Ic-eG-ujN"/>
+                            <constraint firstItem="3ec-rM-ma3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ufo-IM-5NT"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="3ec-rM-ma3"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8Ic-eG-ujN"/>
+                                <exclude reference="ufo-IM-5NT"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="3ec-rM-ma3"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="8Ic-eG-ujN"/>
+                                <include reference="ufo-IM-5NT"/>
                             </mask>
                         </variation>
                     </view>
@@ -43,4 +55,7 @@
             <point key="canvasLocation" x="570" y="334"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Microphone" width="128" height="128"/>
+    </resources>
 </document>

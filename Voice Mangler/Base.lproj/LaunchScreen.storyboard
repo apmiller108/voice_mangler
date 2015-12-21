@@ -10,39 +10,37 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="1MY-gV-VsY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mo7-ZP-bYq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcL-zJ-gyX">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Record Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcL-zJ-gyX">
+                                <rect key="frame" x="151" y="269" width="99" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" image="Microphone"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="78" y="221" width="245" height="128"/>
+                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="JcL-zJ-gyX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="44r-go-6g2"/>
-                            <constraint firstItem="JcL-zJ-gyX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JN5-GZ-web"/>
+                            <constraint firstItem="JcL-zJ-gyX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ARq-Bs-Pbc"/>
+                            <constraint firstItem="JcL-zJ-gyX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eti-EN-3hC"/>
                         </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="JcL-zJ-gyX"/>
-                            </mask>
                             <mask key="constraints">
-                                <exclude reference="44r-go-6g2"/>
-                                <exclude reference="JN5-GZ-web"/>
+                                <exclude reference="ARq-Bs-Pbc"/>
+                                <exclude reference="eti-EN-3hC"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="JcL-zJ-gyX"/>
-                            </mask>
                             <mask key="constraints">
-                                <include reference="44r-go-6g2"/>
-                                <include reference="JN5-GZ-web"/>
+                                <include reference="ARq-Bs-Pbc"/>
+                                <include reference="eti-EN-3hC"/>
                             </mask>
                         </variation>
                     </view>
@@ -52,4 +50,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Microphone" width="128" height="128"/>
+    </resources>
 </document>
